@@ -1,3 +1,7 @@
-export default function Footer(params) {
-  return <footer className="footer">footer</footer>;
+export default function Footer({ balamuc }) {
+  return (
+    <footer className="footer">
+      <p>footer</p>
+    </footer>
+  );
 }

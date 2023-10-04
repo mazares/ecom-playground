@@ -8,7 +8,7 @@ import Content from "./components/Content";
 
 import Footer from "./components/Footer";
 
-export default function App(params) {
+export default function App() {
   return (
     <div className="app">
       <Header />

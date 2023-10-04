@@ -3,6 +3,7 @@ import Card from "./Card";
 export default function Content(params) {
   const products = [];
 
+  // product generator
   class ProductItem {
     constructor(id, name, price, category) {
       this.id = id;
@@ -11,8 +12,6 @@ export default function Content(params) {
       this.category = category;
     }
   }
-
-  // product generator
 
   for (let i = 0; i <= 1000; i++) {
     let prod = new ProductItem(`pr${i}`, `product${i}`, ` $ ${100 + i}`);
